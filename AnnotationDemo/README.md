@@ -1,4 +1,4 @@
-
+# **Annotation注解**
 
 **前言**：
 >通过使用注释，可以再不改变原有逻辑的情况下，在源文件中嵌入一些补充的信息。
@@ -152,7 +152,7 @@ public class SuppressWarningsClass<T> {
 **@SuppressWarnings中的关键字**
 
 | 关键字 | 描述 |
-| :---| :---|
+| :---  | :--- |
 | deprecation | 使用了不赞成使用的类或者方法时的警告 |
 | unchecked | 执行了未检查的转换时警告 |
 | fallthrough | 当使用switch操作时 case 后未添加breadk操作，导致程序继续执行其他的case语句时出现的警告 |
@@ -198,20 +198,20 @@ public @interface Annotation名 {
 
 **@Retention对应的RetentionPolicy的3个范围**
 | 范围   |  描述  |
-| :----: | :----- |
+| :---   | :---|
 | SOURCE | 用于被修饰的Annotation类型的信息只会保留在源文件`.java`中，编辑后不会保存在类文件`.class`中。 |
 | CLASS  | 用于被修饰的Annotation类型的信息只会保留在源文件`.java`和类文件`.class`中,执行时候不会被加载到虚拟机JVM中。一个Annotation声明时没有指定范围,则默认是此范围。|
 | RUNTIME | 用于被修饰的Annotation类型的信息只会保留在源文件`.java`和类文件`.class`中,执行时候会被加载到虚拟机JVM中 |
 
 **@Target对应的ElementType的范围**
-| 范围   |  描述  |
-| :---- | :----- |
-| TYPE   | 只能用在类、接口、枚举类型上，不可以修饰方法和属性 |
+| 范围 |  描述  |
+| :--- | :--- |
+| TYPE | 只能用在类、接口、枚举类型上，不可以修饰方法和属性 |
 | PACKAGE | 只能用在包的声明上 |
-| CONSTRUCTOR     | 只能用在构造方法的声明上|
+| CONSTRUCTOR | 只能用在构造方法的声明上|
 | FIELD | 只能用在属性字段(包括枚举常量)的声明上|
 | LOCAL_VARIABLE | 只能用在局部变量的声明上|
-| METHOD         | 只能用在方法的声明上|
+| METHOD | 只能用在方法的声明上|
 | PARAMETER | 只能用在参数的声明上|
 | ANNOTATION_TYPE | 只能用在注释的声明上|
 
