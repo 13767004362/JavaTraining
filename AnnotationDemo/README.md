@@ -197,6 +197,7 @@ public @interface Annotation名 {
 - **关键点4**：  `@Documented`注释,用于生成javadoc将一些文档的信息写入。
 
 **@Retention对应的RetentionPolicy的3个范围**
+
 | 范围   |  描述  |
 | :---   | :---|
 | SOURCE | 用于被修饰的Annotation类型的信息只会保留在源文件`.java`中，编辑后不会保存在类文件`.class`中。 |
@@ -204,6 +205,7 @@ public @interface Annotation名 {
 | RUNTIME | 用于被修饰的Annotation类型的信息只会保留在源文件`.java`和类文件`.class`中,执行时候会被加载到虚拟机JVM中 |
 
 **@Target对应的ElementType的范围**
+
 | 范围 |  描述  |
 | :--- | :--- |
 | TYPE | 只能用在类、接口、枚举类型上，不可以修饰方法和属性 |
