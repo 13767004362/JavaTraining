@@ -12,12 +12,6 @@
 | AppClassLoader | 加载classpath指定的类，是最常使用的一种加载器 |
 
 
-
-
-
-
-
-
 通过一个案例,进一步了解：
 ```Java
 public class Test {
@@ -44,6 +38,7 @@ public class Test {
 
 三者的关系图如下：
 
+![image](https://github.com/13767004362/JavaTraining/blob/master/ClassLoaderDemo/document/20181204231145557.png)
 
 
 
@@ -102,7 +97,7 @@ protected Class<?> loadClass(String name, boolean resolve)
 - 自定义ClassLoader的子类，需要继承ClassLoader外，还需要重写findClass()
 
 ###  **自定义ClassLoader**
-
+------
 既然JVM已经提供了默认的类加载器，为什么还要定义自已的类加载器呢？
 
 因为Java中提供的默认ClassLoader，只加载指定目录下的jar和class，如果我们想加载其它位置的类或jar时，比如：我要加载网络上的一个class文件，通过动态加载到内存之后，要调用这个类中的方法实现我的业务逻辑。在这样的情况下，默认的ClassLoader就不能满足我们的需求了，所以需要定义自己的ClassLoader。
