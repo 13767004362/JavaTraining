@@ -118,14 +118,14 @@
 
 | 案例 | 描述 |
 | :--- | :--- |
-| [线程的Sleep()沉睡]() | row 1 col 2 |
-| [线程的interrupt()中断]() | row 2 col 2 |
-| [线程的yield()礼让]() | row 1 col 2 |
-| [线程的Join()强制执行]() | row 2 col 2 |
-| [共享Runnable接口与Synchronized锁]() | row 1 col 2 |
-| [线程的volatile锁]() | row 2 col 2 |
-| [ThreadLocal线程变量]() | row 2 col 2 |
-| [经典案例：线程的生产者与消费者模式]() | row 2 col 2 |
+| [线程的Sleep()沉睡](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/%E7%BA%BF%E7%A8%8B%E7%9A%84Sleep()%E6%B2%89%E7%9D%A1.md) | 介绍线程的沉睡 |
+| [线程的interrupt()中断](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/%E7%BA%BF%E7%A8%8B%E7%9A%84interrupt()%E4%B8%AD%E6%96%AD.md) | 介绍线程的停止 |
+| [线程的yield()礼让](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/%E7%BA%BF%E7%A8%8B%E7%9A%84yield()%E7%A4%BC%E8%AE%A9.md) | 介绍线程的礼让 |
+| [线程的Join()强制执行](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/%E7%BA%BF%E7%A8%8B%E7%9A%84Join()%E5%BC%BA%E5%88%B6%E6%89%A7%E8%A1%8C.md) | 介绍线程的强制执行,停止其余线程 |
+| [共享Runnable接口与Synchronized锁](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/%E5%85%B1%E4%BA%ABRunnable%E6%8E%A5%E5%8F%A3%E4%B8%8ESynchronized%E9%94%81.md) | 介绍如何实现买票程序 |
+| [线程的volatile锁](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/%E7%BA%BF%E7%A8%8B%E7%9A%84volatile%E9%94%81.md) | 介绍线程的volatitle锁 |
+| [ThreadLocal线程变量](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/ThreadLocal%E7%BA%BF%E7%A8%8B%E5%8F%98%E9%87%8F.md) | 介绍线程变量 |
+| [经典案例：线程的生产者与消费者模式](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%94%9F%E4%BA%A7%E8%80%85%E4%B8%8E%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%BC%8F.md) | 介绍线程的同步与唤醒机制 |
 
 
 
