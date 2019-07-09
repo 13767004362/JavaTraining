@@ -13,7 +13,6 @@
 - IO
 - 类集
 - [ClasssLoader加载器](https://github.com/13767004362/JavaTraining/tree/master/ClassLoaderDemo)
-
-**Java设计模式**
+- [**Java设计模式**](https://github.com/13767004362/JavaTraining/tree/master/JavaDesignDemo)
 
 
