@@ -8,7 +8,7 @@
 - [多线程](https://github.com/13767004362/JavaTraining/tree/master/ThreadDemo)
 - [Annotation注解](https://github.com/13767004362/JavaTraining/tree/master/AnnotationDemo)
 - [反射](https://github.com/13767004362/JavaTraining/tree/master/ReflectionDemo)
-- 枚举
+- [枚举](https://github.com/13767004362/JavaTraining/tree/master/EnumDemo)
 - 泛型
 - IO
 - 类集
