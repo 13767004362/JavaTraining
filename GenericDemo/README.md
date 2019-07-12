@@ -198,10 +198,10 @@ dataList.add() //错误语法
   }
 ```
 先了解一下上限：`List<? extends Developer>`,因无法确定具体的对象类型,add方法受限,语法报错如下：
-
+![image](https://github.com/13767004362/JavaTraining/blob/master/GenericDemo/document/%E4%B8%8A%E9%99%90.jpg)
 
 先了解一下下限：`List<? super Developer>`因不缺定具体父类类型,get方法受限,语法报错如何：
-
+![image](https://github.com/13767004362/JavaTraining/blob/master/GenericDemo/document/%E4%B8%8B%E9%99%90.jpg)
 
 
 **1. `? extends E`通配符**
@@ -286,6 +286,8 @@ dataList.add() //错误语法
 通配符下限测试：Android程序，使用Java语言开发
 ```
 
+总结如下：
 
+![image](https://github.com/13767004362/JavaTraining/blob/master/GenericDemo/document/%E6%B3%9B%E5%9E%8B%E7%9A%84%E5%88%86%E6%9E%90.png)
 
 
