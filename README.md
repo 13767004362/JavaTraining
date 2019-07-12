@@ -5,7 +5,7 @@
 - [Annotation注解](https://github.com/13767004362/JavaTraining/tree/master/AnnotationDemo)
 - [反射](https://github.com/13767004362/JavaTraining/tree/master/ReflectionDemo)
 - [枚举](https://github.com/13767004362/JavaTraining/tree/master/EnumDemo)
-- 泛型
+- [泛型](https://github.com/13767004362/JavaTraining/tree/master/GenericDemo)
 - IO
 - 类集
 - [ClasssLoader加载器](https://github.com/13767004362/JavaTraining/tree/master/ClassLoaderDemo)
