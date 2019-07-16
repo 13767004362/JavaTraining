@@ -7,7 +7,7 @@
 - [枚举](https://github.com/13767004362/JavaTraining/tree/master/EnumDemo)
 - [泛型](https://github.com/13767004362/JavaTraining/tree/master/GenericDemo)
 - IO
-- 类集
+- [Queue队列](https://github.com/13767004362/JavaTraining/tree/master/QueueDemo)
 - 网络
 - [ClasssLoader加载器](https://github.com/13767004362/JavaTraining/tree/master/ClassLoaderDemo)
 - [**Java设计模式**](https://github.com/13767004362/JavaTraining/tree/master/JavaDesignDemo)
