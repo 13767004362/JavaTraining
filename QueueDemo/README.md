@@ -22,6 +22,8 @@ public interface Queue<E> extends Collection<E> {
 
 ```
 
+![image](https://github.com/13767004362/JavaTraining/blob/master/QueueDemo/document/Queu.png)
+
 Queue队列大体分为以下两种：
 
 - 非阻塞队列,以ConcurrentLinkedQueue为代表的高性能队列非阻塞。
