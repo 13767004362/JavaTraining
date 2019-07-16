@@ -17,12 +17,12 @@ public class GenericDemo4 {
      * @param developerList  传入参数必须是 Developer 和及其子类
      */
     private static void print1(List<? extends Developer> developerList){
-       Iterator<? extends Developer>  iterator=developerList.iterator();
-       while (iterator.hasNext()){
-           // 明确超父类是Developer,可以多态方式接收Developer子类对象。
-           Developer developer=   iterator.next();
-           System.out.println ( "通配符上限测试："+developer.work());
-       }
+        Iterator<? extends Developer>  iterator=developerList.iterator();
+        while (iterator.hasNext()){
+            // 明确超父类是Developer,可以多态方式接收Developer子类对象。
+            Developer developer=   iterator.next();
+            System.out.println ( "通配符上限测试："+developer.work());
+        }
     }
 
     /**
