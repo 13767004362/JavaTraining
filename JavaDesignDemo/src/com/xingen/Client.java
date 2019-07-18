@@ -5,14 +5,13 @@ import com.xingen.builder.complex.ConcreteBuilder;
 import com.xingen.builder.complex.Director;
 import com.xingen.builder.complex.Person;
 import com.xingen.builder.concise.Worker;
-import com.xingen.sixprinciples.OpenClosePrinciples;
-import com.xingen.sixprinciples.SinglePrinciples;
+import com.xingen.sixprinciples.*;
 import com.xingen.strategy.JavaWorkStrategy;
 import com.xingen.strategy.Worker1;
 
 public class Client {
     public static void main(String[] args) {
-         testOpenClosePrinciples();
+        testLeastKnowledgePrinciple ();
     }
 
     /**
@@ -27,6 +26,34 @@ public class Client {
      */
     public static void testOpenClosePrinciples(){
         OpenClosePrinciples.test();
+    }
+
+    /**
+     *  测试六大原则： 里氏替换原则
+     */
+    public static void testRichterReplacementPrinciples(){
+        RichterReplacementPrinciples.test();
+    }
+
+    /**
+     *  测试六大原则： 依赖颠倒原则
+     */
+    public  static void testDependenceInversionPrinciple(){
+        DependenceInversionPrinciple.test();
+    }
+
+    /**
+     *  测试六大原则： 接口隔离
+     */
+    public static void testInterfaceSegregationPrinciple(){
+        InterfaceSegregationPrinciple.test();
+    }
+
+    /**
+     * 测试迪米特原则
+     */
+    public  static void testLeastKnowledgePrinciple(){
+        LeastKnowledgePrinciple.test();
     }
 
     /**
