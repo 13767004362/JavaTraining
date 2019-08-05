@@ -22,6 +22,7 @@
 | void unlock() |  执行此方法时，当前线程将释放持有的锁. 锁只能由持有者释放，如果线程并不持有锁，却执行该方法，可能导致异常的发生.|
 | Condition newCondition() | 条件对象，获取等待通知组件。该组件和当前的锁绑定，当前线程只有获取了锁，才能调用该组件的await()方法，而调用后，当前线程将缩放锁。 |
 
+-----
 
 ### **使用ReentrantLock构建生产者与消费者模式**
 
@@ -144,6 +145,8 @@ Condition接口定义的方法，await对应于Object.wait，signal对应于Obje
 生产线程-->ProductThread ,生产了产品:3
 消费线程-->ConsumerThread ，消费了产品:3
 ```
+-----
+
 ### **使用ReentrantReadWriteLock提高读写效率**
 
 与synchronized相比较,采用ReadWriteLock,提高读写效率，读与读不互斥，写与写互斥，读与写互斥。
