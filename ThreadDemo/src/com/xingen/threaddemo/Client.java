@@ -6,6 +6,8 @@ import com.xingen.threaddemo.designmode.ConsumerThread;
 import com.xingen.threaddemo.designmode.ProducerThread;
 import com.xingen.threaddemo.designmode.ProductHandler;
 import com.xingen.threaddemo.join.WorkerThread;
+import com.xingen.threaddemo.lock.ProductSample;
+import com.xingen.threaddemo.lock.WriteReadSample;
 import com.xingen.threaddemo.runnable.TicketSalesRunnable;
 import com.xingen.threaddemo.sleep.SleepThread;
 import com.xingen.threaddemo.yield.YieldThread;
@@ -13,7 +15,20 @@ import com.xingen.threaddemo.yield.YieldThread;
 
 public class Client {
     public static void main(String[] args) {
-        testThreadLocal();
+        testLockDesignMode();
+    }
+
+    /**
+     * 测试Lock实现生产月消费者模式
+     */
+    public  static void testLockDesignMode(){
+        ProductSample.test();
+    }
+    /**
+     *  测试读写锁，提高效率
+     */
+    public static void testWriteReadLock(){
+        WriteReadSample.test();
     }
     /**
      * 测试ThreadLocal
