@@ -5,6 +5,8 @@ import com.xingen.threaddemo.Volatile.WorkThread;
 import com.xingen.threaddemo.designmode.ConsumerThread;
 import com.xingen.threaddemo.designmode.ProducerThread;
 import com.xingen.threaddemo.designmode.ProductHandler;
+import com.xingen.threaddemo.future.FutureTaskTest;
+import com.xingen.threaddemo.future.FutureTest;
 import com.xingen.threaddemo.join.WorkerThread;
 import com.xingen.threaddemo.lock.ProductSample;
 import com.xingen.threaddemo.lock.WriteReadSample;
@@ -15,21 +17,36 @@ import com.xingen.threaddemo.yield.YieldThread;
 
 public class Client {
     public static void main(String[] args) {
-        testLockDesignMode();
+        testFutureTask();
+    }
+
+    /**
+     *  测试Future与Callable结合使用
+     */
+    public static  void testFuture(){
+        FutureTest.test();
+    }
+    /**
+     * 测试 Callable 与FutureTask类结合使用
+     */
+    public static void testFutureTask() {
+        FutureTaskTest.test();
     }
 
     /**
      * 测试Lock实现生产月消费者模式
      */
-    public  static void testLockDesignMode(){
+    public static void testLockDesignMode() {
         ProductSample.test();
     }
+
     /**
-     *  测试读写锁，提高效率
+     * 测试读写锁，提高效率
      */
-    public static void testWriteReadLock(){
+    public static void testWriteReadLock() {
         WriteReadSample.test();
     }
+
     /**
      * 测试ThreadLocal
      */
