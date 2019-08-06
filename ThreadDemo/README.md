@@ -132,6 +132,7 @@
 | [ThreadLocal线程变量](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/ThreadLocal%E7%BA%BF%E7%A8%8B%E5%8F%98%E9%87%8F.md) | 介绍线程变量 |
 | [经典案例：线程的生产者与消费者模式](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%94%9F%E4%BA%A7%E8%80%85%E4%B8%8E%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%BC%8F.md) | 介绍线程的同步与唤醒机制 |
 | [ReentrantLock锁](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/ReentrantLock%E9%94%81.md) |介绍实现生产与消费者模式,提高读写效率 |
+|[Callable接口与Future接口实现线程](https://github.com/13767004362/JavaTraining/blob/master/ThreadDemo/document/Callable%E6%8E%A5%E5%8F%A3%E4%B8%8EFuture%E6%8E%A5%E5%8F%A3%E4%B8%8EFutureTask.md)| 介绍如何使用可取消、可获取执行结果的线程|
 
 
 
